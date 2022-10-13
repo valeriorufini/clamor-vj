@@ -1,0 +1,47 @@
+.example-card {
+  max-width: 400px;
+  background-color: #fff;
+  color: black;
+}
+
+.icons-header {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #fff;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 65px;
+  width: 65px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 70%;
+}
+
+.pdf-icon {
+  color: black;
+}
+
+.pdf {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.mat-card-subtitle {
+  color: rgb(127, 127, 127);
+  margin-top: -7px;
+}

@@ -1,0 +1,57 @@
+<nav id="nav" #nav [class.show-nav]="isClicked === true">
+  <div class="logo">
+    <img src="../../../assets/images/logo.png" alt="user" />
+  </div>
+  <div class="nav-links">
+    <ul>
+      <li>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Example home icon"
+          fontIcon="sensors"
+        ></mat-icon
+        ><span class="nav-link">Live</span>
+      </li>
+      <li>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Example home icon"
+          fontIcon="circle_notifications"
+        ></mat-icon
+        ><span class="nav-link">Servizi</span>
+      </li>
+      <li>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Example home icon"
+          fontIcon="map"
+        ></mat-icon
+        ><span class="nav-link"> Luoghi </span>
+      </li>
+      <li>
+        <mat-icon
+          aria-hidden="false"
+          aria-label="Example home icon"
+          fontIcon="settings"
+        ></mat-icon
+        ><span class="nav-link">Impostazioni</span>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<header>
+  <button
+    id="toggle"
+    (click)="openNav()"
+    class="toggle"
+    #toggle
+    [class.moveToggle]="isClicked === true"
+  >
+    <mat-icon
+      aria-hidden="false"
+      aria-label="Example home icon"
+      fontIcon="reorder"
+    ></mat-icon>
+  </button>
+</header>
